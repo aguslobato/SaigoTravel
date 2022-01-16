@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+.presentacion-home{
+    background-image: url(../../Images/paisajes/mountain.jpeg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 93vh;
+    width: 100%;
+    padding: 0;
+}
+.presentacion-home-contenedor{
+    display: flex;
+    min-height: 93vh;
+    flex-direction: column;
+    color: #000;
+}
+.presentacion-home-contenedor h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.presentacion-home-contenedor h2{
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+.presentacion-home-contenedor a{
+    padding: 15px 40px;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: .6s;
+    font-size: 20px;
+}
+.presentacion-home-contenedor a:hover{
+    color: rgb(7, 86, 86);
+    transition: .6s;
+}
+.seleccion-paises{
+    background: rgba(0, 0, 0, 0.664);
+    padding: 1em 0;
+}
+.seleccion-paises ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+.seleccion-paises ul li a:hover{
+    color: aqua;
+    border-bottom: 2px solid aqua;
+}
+

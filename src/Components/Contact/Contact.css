@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+.formulario-contacto{
+    padding: 4em 0;
+}
+.formulario-contacto-contenedor{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 1em;
+    background-color: #fff;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(4, 74, 82);
+}
+.formulario-contacto-contenido{
+    color: rgb(4, 74, 82);
+    font-weight: 500;
+    padding: 2em 0;
+}
+.medios-contacto-contenedor{
+    display: flex;
+    padding: 2em 0;
+}
+.medios-contacto-contenedor a i{
+    font-size: 40px;
+    margin:0 20px;
+    color: rgb(4, 74, 82);
+}

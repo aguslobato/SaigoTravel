@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+header{
+    padding: 1em 0;
+    display: flex;
+    position: absolute !important;
+    justify-content: center !important;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(240, 255, 240, 0);
+}
+.logo{
+   width: 60px;
+   height: 50px;
+}
+.navbar{
+    display: flex;
+    position: absolute !important;
+    justify-content: center !important;
+    text-align: center;
+    width: 100%;
+    background-color: #e3f2fd00 !important;
+}
+.navbar-brand{
+    font-family: 'Prata', serif;
+}
+.navbar .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color:  black !important;
+    font-size: 18px;
+}
+.nav-link.active{
+    border-bottom: 1px solid #000;
+}
