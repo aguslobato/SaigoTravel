@@ -3,6 +3,7 @@ import Contact from "../Contact/Contact"
 import Uruguay from "../../Images/paisajes/uruguay.jpg"
 import Grecia from "../../Images/paisajes/grecia.jpg"
 import Chile from "../../Images/paisajes/chile.jpeg"
+import About from "../About/About"
 
  function Home () {
      return(
@@ -26,6 +27,7 @@ import Chile from "../../Images/paisajes/chile.jpeg"
                  </div>
              </div>
              <Contact/>
+             <About/>
          </div>
     )
 }

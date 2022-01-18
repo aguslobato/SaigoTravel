@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
 .presentacion-home{
     background-image: url(../../Images/paisajes/mountain.jpeg);
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
-    background-attachment: fixed;
-    min-height: 93vh;
+    min-height: 90vh;
     width: 100%;
     padding: 0;
 }
 .presentacion-home-contenedor{
     display: flex;
-    min-height: 93vh;
+    min-height: 90vh;
     flex-direction: column;
     color: #000;
 }
@@ -26,17 +25,18 @@
     letter-spacing: 5px;
 }
 .presentacion-home-contenedor a{
-    padding: 15px 40px;
+    padding: 10px 20px;
     text-decoration: none;
-    font-family: 'Prata', serif;
-    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     border-bottom: 2px solid rgba(0, 0, 0, 0);
-    border-radius: 5px;
+    border-radius: 10px;
     transition: .6s;
-    font-size: 20px;
+    font-size: 18px;
 }
 .presentacion-home-contenedor a:hover{
-    color: rgb(7, 86, 86);
+    color: rgb(255, 255, 255);
     transition: .6s;
 }
 .seleccion-paises{
@@ -51,6 +51,5 @@
 }
 .seleccion-paises ul li a:hover{
     color: aqua;
-    border-bottom: 2px solid aqua;
 }
 

@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
 .formulario-contacto{
     padding: 4em 0;
+    display: flex;
 }
 .formulario-contacto-contenedor{
     display: flex;
     flex-direction: column;
     padding: 3em 1em;
-    background-color: #fff;
+    margin: 1em;
     border-radius: 40px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(4, 74, 82);
+    border: 1px solid rgb(203, 203, 203);
 }
 .formulario-contacto-contenido{
     color: rgb(4, 74, 82);

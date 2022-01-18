@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+.card-about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(4, 74, 82);
+    padding: 2em 0;
+    margin: 1em 0;
+}
+.card-about-head{
+    display: flex;
+    width: 40%;
+    padding: 1em;
+}
+.card-about-body h3{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Prata', serif;
+}
+.card-about-body{
+    width: 50%;
+}
+.card-about-body p{
+    font-size: 18px;
+}
+.card-about-head img{
+    width: 300px;
+    height: 300px;
+}
+.listado-caracteristcas-contenedor{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.caracteristica{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(4, 74, 82);
+    padding: 1em;
+    text-align: center;
+}
+.caracteristica-head{
+    display: flex;
+    padding: 1em 0;
+}
+.caracteristica-head img{
+    width: 50px;
+    height: 50px;
+}
+.caracteristica-body{
+    display: flex;
+    flex-direction: column;
+}
+.caracteristica-body h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.caracteristica-body p{
+    font-size: 16px;
+}
+.pagos-bitcoin{
+    display: flex;
+    color: rgb(4, 74, 82);
+    font-family: 'Montserrat', sans-serif;
+}
