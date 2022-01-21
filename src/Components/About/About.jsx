@@ -37,7 +37,7 @@ function About () {
                          </div>
                      </div>
                      <div className="listado-caracteristicas justify-content-center align-items-center">
-                         <div className="listado-caracteristcas-contenedor justify-content-around align-items-center">
+                         <div className="listado-caracteristcas-contenedor justify-content-around align-items-start">
                              <div className="caracteristica justify-content-center align-items-center">
                                  <div className="caracteristica-head"><img src={aireAcondicionado} alt="aire acondicionado"/></div>
                                  <div className="caracteristica-body">
@@ -73,8 +73,28 @@ function About () {
                                      <p>Cada habitacion cuenta con su propio wifi para una mejor experiencia del cliente.</p>
                                  </div>
                              </div>
+                         </div>                    
+                         <div className="pagos-bitcoin justify-content-center align-items-center">
+                             <div className="pagos-bitcoin-contenedor justify-content-center align-items-center">
+                                 <div className="pagos-bitcoin-introduccion justify-content-center align-items-center">
+                                     <h2>PAGOS EN BITCOIN</h2>
+                                     <img src={bitcoin} alt="pagos con bitcoin" />
+                                 </div>
+                                 <div className="pagos-bitcoin-contenido text-center">
+                                     <h3>¿Que es bitcoin?</h3>
+                                     <p>Bitcoin es una red consensuada que permite un nuevo sistema de pago y una moneda completamente digital.</p>
+                                 </div>
+                                 <div className="pagos-bitcoin-caracteristicas">
+                                     <ul>
+                                         <li>Tasas muy bajas </li>
+                                         <li>Menores riesgos para los comerciantes</li>
+                                         <li>Neutral y transparente</li>
+                                         <li>Seguridad y control</li>
+                                     </ul>
+                                 </div>
+                             </div>
                          </div>
-                         <div className="listado-caracteristcas-contenedor justify-content-around align-items-center">
+                         <div className="listado-caracteristcas-contenedor justify-content-around align-items-start">
                              <div className="caracteristica justify-content-center align-items-center">
                                  <div className="caracteristica-head"><img src={comida} alt="servicio de comida" /></div>
                                  <div className="caracteristica-body">
@@ -112,14 +132,7 @@ function About () {
                              </div>
                          </div>
                      </div>
-                     <div className="pagos-bitcoin justify-content-center align-items-center">
-                         <div className="pagos-bitcoin-contenedor justify-content-center align-items-center">
-                             <div className="pagos-bitcoin-introduccion">
-                                 <h2>PAGOS EN BITCOIN</h2>
-                                 <img src={bitcoin} alt="pagos con bitcoin" />
-                             </div>
-                         </div>
-                     </div>
+
                  </div>
              </div>
         </div>

@@ -2,7 +2,8 @@ import "./Contact.css";
 
  function Contact () {
      return(
-         <div className="Contact">
+        
+         <div className="Contact"> 
              <div className="formulario-contacto justify-content-center align-items-center">
                  <div className="formulario-contacto-contenedor justify-content-center align-items-center container-xxl">
                      <div className="formulario-contacto-introduccion justify-content-center align-items-center text-center">

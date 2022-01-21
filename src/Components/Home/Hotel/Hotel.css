@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+.Hotel{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotel-presentacion{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.hotel-presentacion-contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 40px;
+    width: 350px;
+    color: rgb(4, 74, 82);
+}
+.hotel-presentacion-contenedor .hotel-head{
+    display: flex;
+    overflow: hidden;
+    width: 350px;
+    border-radius: 40px;
+}
+.hotel-presentacion-contenedor img{
+    width: 100%;
+}
+.hotel-body{
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+}
+.hotel-presentacion-contenedor .hotel-body h3{
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    text-align: center;
+}
+.hotel-presentacion-contenedor .hotel-body p{
+    display: flex;
+    overflow: auto;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    color: gray;
+}
+.hotel-body .hotel-footer span{
+    margin: 10px 0;
+}
+.hotel-body .hotel-footer a{
+    background-color: rgb(50, 116, 116);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid rgb(4, 74, 82);
+}
+.hotel-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
