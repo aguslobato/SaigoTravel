@@ -15,9 +15,9 @@ import wifi from "../../Images/iconos/wifi.png"
 import bitcoin from "../../Images/iconos/bitcoin.png"
 function About () {
     return(
-        <div className="About">
+        <div className="About justify-content-center align-items-center">
              <div className="nosotros justify-content-center align-items-center">
-                 <div className="nososotros-contenedor justify-content-center align-items-center container-xxl">
+                 <div className="nososotros-contenedor justify-content-center align-items-center container-xl">
                      <div className="cards-about justify-content-center align-items-center">
                          <div className=".cards-about-contenedor justify-content-center align-items-center">
                              <div className="card-about justify-content-between align-items-center">
@@ -25,10 +25,10 @@ function About () {
                                      <h3>Quienes Somos</h3>
                                      <p>Somos unas empresa turística conformada por trabajadores Sudcalifornianos dedicados a compartir con nuestros clientes la experiencia de la vida acuática, nuestras embarcaciones están totalmente equipadas con servicios para hacer tu viaje cómodo y seguro, nuestra misión es que usted, su familia y amigos puedan disfrutar este valioso tesoro natural.</p>
                                  </div>
-                                 <div className="card-about-head justify-content-center align-items-center"><img src={quienesSomos} alt="Quienes Somos" /></div>
+                                 <div className="card-about-head justify-content-end align-items-center"><img src={quienesSomos} alt="Quienes Somos" /></div>
                              </div>
                              <div className="card-about justify-content-between align-items-center">
-                                 <div className="card-about-head justify-content-center align-items-center"><img src={nuestraHistoria} alt="Nuestra Historia" /></div>
+                                 <div className="card-about-head justify-content-start align-items-center"><img src={nuestraHistoria} alt="Nuestra Historia" /></div>
                                  <div className="card-about-body">
                                      <h3>Nuestra Historia</h3>
                                      <p>Con años de experiencia en las aguas del Golfo de California , nuestros Capitanes, se han dado a la tarea de recorrer el litoral de este acuario natural, para descubrir maravillas que deseaban compartir con los visitantes, surgió así la necesidad de consolidar una empresa turística local que permita dar a conocer nuestras bellezas y sirva de sustento para las familias Sudcalifornianas.</p>

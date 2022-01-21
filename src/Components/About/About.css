@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+.About{
+    display: flex;
+    flex-wrap: wrap;
+}
 .cards-about-contenedor{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 .card-about{
@@ -13,6 +16,7 @@
     color: rgb(4, 74, 82);
     padding: 2em 0;
     margin: 1em 0;
+    max-width: 100%;
 }
 .card-about-head{
     display: flex;
@@ -25,7 +29,7 @@
     font-family: 'Prata', serif;
 }
 .card-about-body{
-    width: 50%;
+    width: 60%;
 }
 .card-about-body p{
     font-size: 18px;
@@ -41,7 +45,7 @@
 .listado-caracteristcas-contenedor{
     display: flex;
     flex-wrap: wrap;
-    margin: 1em;
+    margin: 1em 0;
 }
 .caracteristica{
     display: flex;
