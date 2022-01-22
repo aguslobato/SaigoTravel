@@ -111,3 +111,15 @@
     transform: scale(1.1,1.1);
     cursor: default;
 }
+@media (max-width: 500px),(max-width: 900px){
+    .card-about{
+        flex-direction: column;
+    }
+    .card-about-head{
+        width: 100%;
+        justify-content: center !important;
+    }
+    .card-about-body{
+        width: 100%;
+    }
+}

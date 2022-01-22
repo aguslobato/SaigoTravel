@@ -4,13 +4,13 @@
     background-image: url(../../../Images/paisajes/playa.jpg);
     background-position: bottom;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 70vh;
     width: 100%;
     padding: 0;
 }
 .presentacion-home-contenedor{
     display: flex;
-    min-height: 90vh;
+    min-height: 70vh;
     flex-direction: column;
     color: rgb(4, 74, 82);
 }
@@ -56,6 +56,11 @@
     font-weight: 400;
 }
 .seleccion-paises ul li a:hover{
-    color: rgb(2, 184, 184);
+    color: rgb(50, 116, 116);
+    transform: translateY(-5px);
 }
-
+@media (max-width: 500px),(max-width: 900px){
+    .presentacion-home-contenedor{
+        color: rgb(255, 255, 255);
+    }
+}

@@ -4,10 +4,10 @@ import Hotel from "./Hotel/Hotel";
 
 function Home () {
     return (
-        <div className="container">
-            <About/>
-            <Contact/>
-            <Hotel/>
+        <div className="Home">
+             <div className="container"><About/></div>
+             <Contact/>
+             <div className="container"><Hotel/></div>
         </div>
     )
 }

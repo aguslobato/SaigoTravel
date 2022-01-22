@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+.Contact{
+     background-image: url(../../Images/paisajes/fondo-contacto.jpg);
+     background-position: center;
+     background-size: cover;
+     margin: 4em 0;
+}
 .formulario-contacto{
     padding: 4em 0;
     display: flex;
@@ -11,7 +17,8 @@
     border-radius: 40px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(4, 74, 82);
-    border: 1px solid rgb(203, 203, 203);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #fff;
 }
 .formulario-contacto-contenido{
     color: rgb(4, 74, 82);

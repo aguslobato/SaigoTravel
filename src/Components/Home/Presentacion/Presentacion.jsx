@@ -1,4 +1,4 @@
-import "../Presentacion/Presentacion.css"
+import "./Presentacion.css"
 import Uruguay from "../../../Images/paisajes/uruguay.jpg"
 import Grecia from "../../../Images/paisajes/grecia.jpg"
 import Chile from "../../../Images/paisajes/chile.jpeg"

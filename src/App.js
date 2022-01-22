@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Contact from "./Components/Contact/Contact";
 import About from "./Components/About/About"
 import Home from "./Components/Home/Home"
+import Footer from "./Components/Footer/Footer";
 
  function App() {
    return (
@@ -17,6 +18,7 @@ import Home from "./Components/Home/Home"
            <Route exact path="/contacto"><Contact/></Route>
            <Route exact path="/nosotros"><About/></Route>
          </Switch>
+         <Footer/>
        </div> 
      </Router>
   );

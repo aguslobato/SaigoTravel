@@ -31,7 +31,7 @@ function About () {
                                  <div className="card-about-head justify-content-start align-items-center"><img src={nuestraHistoria} alt="Nuestra Historia" /></div>
                                  <div className="card-about-body">
                                      <h3>Nuestra Historia</h3>
-                                     <p>Con años de experiencia en las aguas del Golfo de California , nuestros Capitanes, se han dado a la tarea de recorrer el litoral de este acuario natural, para descubrir maravillas que deseaban compartir con los visitantes, surgió así la necesidad de consolidar una empresa turística local que permita dar a conocer nuestras bellezas y sirva de sustento para las familias Sudcalifornianas.</p>
+                                     <p>Con años de experiencia en las aguas del Golfo de California, nuestros Capitanes, se han dado a la tarea de recorrer el litoral de este acuario natural, para descubrir maravillas que deseaban compartir con los visitantes, surgió así la necesidad de consolidar una empresa turística local que permita dar a conocer nuestras bellezas y sirva de sustento para las familias Sudcalifornianas.</p>
                                  </div>
                              </div>
                          </div>
