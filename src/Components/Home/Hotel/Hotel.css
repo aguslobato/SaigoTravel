@@ -38,14 +38,13 @@
 }
 .hotel-presentacion-contenedor .hotel-body p{
     display: flex;
-    overflow: auto;
-    height: 300px;
+    height: 200px;
     font-family: 'Montserrat', sans-serif;
     padding: 1em;
     color: gray;
 }
 .hotel-body .hotel-footer span{
-    margin: 10px 0;
+    margin: 5px;
 }
 .hotel-body .hotel-footer a{
     background-color: rgb(50, 116, 116);
@@ -58,5 +57,4 @@
 .hotel-footer{
     display: flex;
     flex-direction: column;
-    padding: 1.5em;
 }
