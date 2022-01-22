@@ -32,7 +32,7 @@ header{
     font-size: 18px;
 }
 .offcanvas{
-    background:linear-gradient(180deg, rgba(4, 74, 82, 0.639), rgba(104, 155, 160, 0.612));
+    background:linear-gradient(180deg, rgba(6, 46, 50, 0.838), rgba(40, 69, 72, 0.804));
     border: #fff;
 }
 .offcanvas-title{
@@ -40,10 +40,9 @@ header{
     font-family: 'Montserrat', sans-serif;
 }
 .d-flex{
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: start;
 }
 .d-flex .btn{
     margin: 10px 0;
@@ -54,4 +53,21 @@ header{
 }
 .navbar-toggler:focus{
     box-shadow: none !important;
+}
+.nav-item img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.nav-item{
+    font-size: 14px;
+    padding: 0 10px;
+    margin: 10px;
+}
+.nav-item:hover{
+    transform: scale(1.1,1.1);
+}
+.menu-nav img{
+    width: 35px;
+    height: 35px;
 }

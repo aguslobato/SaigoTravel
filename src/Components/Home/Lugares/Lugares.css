@@ -1,0 +1,82 @@
+.proyectos-ejemplos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2em;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+.proyectos-ejemplos-contenedor{
+    padding: 2em;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+.card-proyecto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 1em;
+    width: 450px;
+    height: 250px;
+    color: #fff;
+    transition: .8s;
+    background-size: cover;
+}
+.card-proyecto:hover{
+    transition: .8s;
+    transform: translateY(-10px);
+    cursor: default;
+}
+.card-proyecto-contenedor{
+    padding: 2em;
+    border-radius: 10px;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: .8s;
+    background-color: rgba(0, 0, 0, 0.338);
+    font-family: 'Montserrat', sans-serif;
+}
+.card-proyecto-contenedor:hover{
+    opacity: 1;
+    transition: .8s;
+}
+#argentina{
+    background-image: url(../../../Images/paisajes/argentina.jpg);
+}
+#chile{
+    background-image: url(../../../Images/paisajes/chile.jpeg);
+}
+#francia{
+    background-image: url(../../../Images/paisajes/francia.jpg);
+}
+.card-proyecto-footer span{
+    font-size: 20px;
+    margin: 10px;
+    color: #fff;
+}
+.card-proyecto-footer a:hover{
+    background-color: rgba(255, 255, 255, 0.253);
+    transition: .8s;
+}
+@media (max-width: 400px),(max-width: 900px){
+    .proyectos-ejemplos-contenedor{
+        padding: 2em 0;
+        flex-direction: column;
+    }
+    .card-proyecto{
+        display: flex;
+        flex-direction: row;
+        margin: 1em 0;
+        width: 350px;
+        height: 200px;
+    }
+}

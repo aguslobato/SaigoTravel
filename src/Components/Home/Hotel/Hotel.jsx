@@ -9,11 +9,19 @@
          <div className="Hotel justify-content-evenly align-items-center">
              <div className="hotel-presentacion justify-content-center align-items-center">
                  <div className="hotel-presentacion-contenedor justify-content-center align-items-center">
-                     <div className="hotel-head"><img src={PalacioDuhau} alt="Palacio Duhau | Park Hyatt Buenos Aires"/></div>
+                     <div className="hotel-head">
+                         <img src={PalacioDuhau} alt="Palacio Duhau | Park Hyatt Buenos Aires"/>
+                         <div className="hotel-carrito-contenedor">
+                             <ul>
+                                 <li><span class="fi fi-rr-bookmark"></span></li>
+                                 <li><span class="fi fi-rr-heart"></span></li>
+                             </ul>
+                         </div>
+                     </div>
                      <div className="hotel-body justify-content-center align-items-center">
                          <h3>Palacio Duhau | Park Hyatt Buenos Aires</h3>
                          <p>Descubre por qué tantos viajeros ven Palacio Duhau - Park Hyatt Buenos Aires como el hotel ideal cuando visitan Buenos Aires. Además de aportar la combinación ideal de calidad, comodidad y ubicación.</p>
-                         <div className="hotel-footer justify-content-end align-items-center">
+                         <div className="hotel-footer justify-content-center align-items-center">
                              <span>Precio por noche: $4.000</span>
                              <span>Buenos Aires, Argentina</span>
                              <Link to={`/hotel/`}>Detalles del hotel</Link>
@@ -23,11 +31,19 @@
              </div>
              <div className="hotel-presentacion justify-content-center align-items-center">
                  <div className="hotel-presentacion-contenedor justify-content-center align-items-center">
-                     <div className="hotel-head"><img src={FourSeasons} alt="Palacio Duhau | Park Hyatt Buenos Aires"/></div>
+                     <div className="hotel-head">
+                         <img src={FourSeasons} alt="Palacio Duhau | Park Hyatt Buenos Aires"/>
+                         <div className="hotel-carrito-contenedor">
+                             <ul>
+                                 <li><span class="fi fi-rr-bookmark"></span></li>
+                                 <li><span class="fi fi-rr-heart"></span></li>
+                             </ul>
+                         </div>
+                     </div>
                      <div className="hotel-body justify-content-center align-items-center">
                          <h3>Palacio Duhau | Park Hyatt Buenos Aires</h3>
                          <p>Descubre por qué tantos viajeros ven Palacio Duhau - Park Hyatt Buenos Aires como el hotel ideal cuando visitan Buenos Aires. Además de aportar la combinación ideal de calidad, comodidad y ubicación.</p>
-                         <div className="hotel-footer justify-content-end align-items-center">
+                         <div className="hotel-footer justify-content-center align-items-center">
                              <span>Precio por noche: $4.000</span>
                              <span>Buenos Aires, Argentina</span>
                              <Link to={`/hotel/`}>Detalles del hotel</Link>
@@ -37,11 +53,19 @@
              </div>
              <div className="hotel-presentacion justify-content-center align-items-center">
                  <div className="hotel-presentacion-contenedor justify-content-center align-items-center">
-                     <div className="hotel-head"><img src={ModHotel} alt="Palacio Duhau | Park Hyatt Buenos Aires"/></div>
+                     <div className="hotel-head">
+                         <img src={ModHotel} alt="Palacio Duhau | Park Hyatt Buenos Aires"/>
+                         <div className="hotel-carrito-contenedor">
+                             <ul>
+                                 <li><span class="fi fi-rr-bookmark"></span></li>
+                                 <li><span class="fi fi-rr-heart"></span></li>
+                             </ul>
+                         </div>
+                     </div>
                      <div className="hotel-body justify-content-center align-items-center">
                          <h3>Palacio Duhau | Park Hyatt Buenos Aires</h3>
                          <p>Descubre por qué tantos viajeros ven Palacio Duhau - Park Hyatt Buenos Aires como el hotel ideal cuando visitan Buenos Aires. Además de aportar la combinación ideal de calidad, comodidad y ubicación.</p>
-                         <div className="hotel-footer justify-content-end align-items-center">
+                         <div className="hotel-footer justify-content-center align-items-center">
                              <span>Precio por noche: $4.000</span>
                              <span>Buenos Aires, Argentina</span>
                              <Link to={`/hotel/`}>Detalles del hotel</Link>

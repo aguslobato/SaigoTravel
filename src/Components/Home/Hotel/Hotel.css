@@ -18,7 +18,9 @@
 }
 .hotel-presentacion-contenedor .hotel-head{
     display: flex;
-    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 400px;
     border-radius: 10px;
 }
@@ -57,4 +59,20 @@
 .hotel-footer{
     display: flex;
     flex-direction: column;
+}
+.hotel-carrito-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotel-carrito-contenedor ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    font-size: 25px;
+}
+.hotel-carrito-contenedor ul li{
+    margin: 0 5px;
 }
