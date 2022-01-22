@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
 header{
-    padding: 1em 0;
     display: flex;
     position: absolute !important;
     justify-content: center !important;
@@ -9,8 +8,8 @@ header{
     background-color: rgba(240, 255, 240, 0);
 }
 .logo{
-   width: 60px;
-   height: 50px;
+   width: 80px;
+   height: 80px;
 }
 .navbar{
     display: flex;
@@ -20,14 +19,41 @@ header{
     width: 100%;
     background-color: #e3f2fd00 !important;
 }
+.navbar .container-xxl{
+    border-bottom: 1px solid rgba(218, 218, 218, 0.982);
+}
 .navbar-brand{
     font-family: 'Prata', serif;
+    color: #fff !important;
 }
 .navbar .nav-link{
     font-family: 'Montserrat', sans-serif;
-    color:  black !important;
+    color:  rgb(255, 255, 255) !important;
     font-size: 18px;
 }
-.nav-link.active{
-    border-bottom: 1px solid #000;
+.offcanvas{
+    background-image: url(../../Images/paisajes/fondo-navbar.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border: #fff;
+}
+.offcanvas-title{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.d-flex .btn{
+    margin: 10px 0;
+    width: 50%;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
 }

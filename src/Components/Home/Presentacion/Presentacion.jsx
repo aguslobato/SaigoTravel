@@ -12,7 +12,7 @@ import { Link } from "react-router-dom"
              <div className="presentacion-home justify-content-center align-items-center">
                  <div className="presentacion-home-contenedor container-fluid justify-content-center align-items-center">
                      <h1>E X P L O R E</h1>
-                     <h2>Noruega</h2>
+                     <h2>Argentina</h2>
                      <a href="" className="btn btn-outline-success">Ver lugares</a>
                  </div>
                  <div className="seleccion-paises">
