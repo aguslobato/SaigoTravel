@@ -1,15 +1,15 @@
 import Contact from "../Contact/Contact";
 import About from "../About/About";
-// import Hotel from "./Hotel/Hotel";
 import Lugares from "./Lugares/Lugares";
 
 function Home () {
     return (
         <div className="Home">
-             <div className="container"><Lugares/></div>
-             <div className="container"><About/></div>
+             <div className="Home-contenedor container">
+                 <div><Lugares/></div>
+                 <div><About/></div>
+             </div>
              <Contact/>
-             {/* <div className="container"><Hotel/></div> */}
         </div>
     )
 }

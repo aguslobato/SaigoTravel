@@ -17,7 +17,7 @@ import { Link } from "react-router-dom"
                  </div>
                  <div className="seleccion-paises">
                      <div className="seleccion-paises-contenedor container-xxl">
-                         <ul className="nav justify-content-evenly">
+                         <ul className="nav justify-content-evenly align-items-center">
                              <li className="nav-item"><Link className="nav-link" to="/">Europa</Link></li>
                              <li className="nav-item"><Link className="nav-link" to="/">Oceania</Link></li>
                              <li className="nav-item"><Link className="nav-link" to="/">Promociones</Link></li>

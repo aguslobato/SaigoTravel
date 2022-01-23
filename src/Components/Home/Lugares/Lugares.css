@@ -36,18 +36,14 @@
     padding: 2em;
     border-radius: 10px;
     display: flex;
-    opacity: 0;
+    opacity: 1;
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
     transition: .8s;
-    background-color: rgba(0, 0, 0, 0.338);
+    background-color: rgba(0, 0, 0, 0.434);
     font-family: 'Montserrat', sans-serif;
-}
-.card-proyecto-contenedor:hover{
-    opacity: 1;
-    transition: .8s;
 }
 #argentina{
     background-image: url(../../../Images/paisajes/argentina.jpg);
@@ -66,6 +62,20 @@
 .card-proyecto-footer a:hover{
     background-color: rgba(255, 255, 255, 0.253);
     transition: .8s;
+}
+.card-proyecto-contenedor a{
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: .5s;
+}
+.card-proyecto-contenedor a:hover{
+    background-color: rgb(28, 86, 87);
+    transition: .5s;
 }
 @media (max-width: 400px),(max-width: 900px){
     .proyectos-ejemplos-contenedor{

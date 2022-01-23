@@ -1,4 +1,5 @@
 import "./Lugares.css"
+import { Link } from "react-router-dom"
 function Lugares() {
     return(
         <div className="Lugares justify-content-center align-items-center">
@@ -14,28 +15,31 @@ function Lugares() {
                          <span class="fi fi-rr-bookmark"></span>
                          <span class="fi fi-rr-heart"></span>
                      </div>
+                     <Link to="/">Ver Pais</Link>
                  </div>
              </div>
              <div class="card-proyecto" id="chile">
                  <div class="card-proyecto-contenedor">
                      <div class="card-proyecto-body">
-                         <h5>Wolf Barber</h5>
+                         <h5>Chile</h5>
                      </div>
                      <div class="card-proyecto-footer">
                          <span class="fi fi-rr-bookmark"></span>
                          <span class="fi fi-rr-heart"></span>
                      </div>
+                     <Link to="/">Ver Pais</Link>
                  </div>
              </div>
              <div class="card-proyecto" id="francia">
                  <div class="card-proyecto-contenedor">
                      <div class="card-proyecto-body">
-                         <h5>Wolf Barber</h5>
+                         <h5>Francia</h5>
                      </div>
                      <div class="card-proyecto-footer">
                          <span class="fi fi-rr-bookmark"></span>
                          <span class="fi fi-rr-heart"></span>
                      </div>
+                     <Link to="/">Ver Pais</Link>
                  </div>
              </div>
          </div>
@@ -43,8 +47,4 @@ function Lugares() {
         </div>
     )
 }
-export default Lugares                                 
-{/* <div className="hotel-carrito-contenedor">
-                                     <span class="fi fi-rr-bookmark"></span>
-                                     <span class="fi fi-rr-heart"></span>
-                                 </div> */}
+export default Lugares                            

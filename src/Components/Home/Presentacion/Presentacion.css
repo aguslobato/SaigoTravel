@@ -41,7 +41,11 @@
     background-color: rgb(3, 120, 133);
     transition: .6s;
 }
+.seleccion-paises a{
+    padding: 0;
+}
 .seleccion-paises{
+    text-align: center;
     padding: 1em 0;
 }
 .seleccion-paises ul{
