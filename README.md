@@ -1,4 +1,4 @@
-#Saigo Travel
+# Saigo Travel
 Proyecto construido en React para el curso de Backend (CoderHouse). Se trata de una agencia de viajes tipo ecommerce.
 
 ## Estructura de Saigo Travel
