@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+
 header{
-    display: flex;
-    position: absolute !important;
-    justify-content: center !important;
-    text-align: center;
-    width: 100%;
     background-color: rgba(240, 255, 240, 0);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+header.abajo{
+    background:linear-gradient(180deg, rgba(6, 46, 50, 0.838), rgba(40, 69, 72, 0.804));
+    color: black !important;
+    padding: 50px 20px;
+    transition: 0.7s;
 }
 .logo{
    width: 80px;

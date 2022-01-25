@@ -12,6 +12,7 @@ import MenuNav from "../../Images/iconos/menu-nav.png"
 function NavBar () {
     return(
          <div className="Navbar">
+             <header>
              <nav class="navbar navbar-light bg-light fixed-top">
                  <div class="container-xxl">
                      <img className="logo" src={logo} alt=""/>
@@ -38,8 +39,9 @@ function NavBar () {
                          </div>
                      </div>
                  </div>
-             </nav>
+             </nav></header>
          </div>
     )
 }
-export default NavBar;                 
+export default NavBar;               
+  
