@@ -1,6 +1,8 @@
 import "./About.css"
 import quienesSomos from "../../Images/iconos/equipo-trabajo.svg"
 import nuestraHistoria from "../../Images/iconos/nuestra-historia.svg"
+import perfilUsuario from "../../Images/iconos/perfil-usuario.svg"
+import soporte from "../../Images/iconos/soporte.svg"
 import aireAcondicionado from "../../Images/iconos/aire-acondicionado.png"
 import cajaFuerte from "../../Images/iconos/caja-fuerte.png"
 import campana from "../../Images/iconos/campana.png"
@@ -21,14 +23,14 @@ function About () {
                      <div className="cards-about justify-content-center align-items-center">
                          <div className=".cards-about-contenedor justify-content-center align-items-center">
                              <div className="card-about justify-content-between align-items-center">
+                                 <div className="card-about-head justify-content-center align-items-center"><img src={quienesSomos} alt="Quienes Somos" /></div>
                                  <div className="card-about-body">
                                      <h3>Quienes Somos</h3>
                                      <p>Somos unas empresa turística conformada por trabajadores Sudcalifornianos dedicados a compartir con nuestros clientes la experiencia de la vida acuática, nuestras embarcaciones están totalmente equipadas con servicios para hacer tu viaje cómodo y seguro, nuestra misión es que usted, su familia y amigos puedan disfrutar este valioso tesoro natural.</p>
                                  </div>
-                                 <div className="card-about-head justify-content-end align-items-center"><img src={quienesSomos} alt="Quienes Somos" /></div>
                              </div>
                              <div className="card-about justify-content-between align-items-center">
-                                 <div className="card-about-head justify-content-start align-items-center"><img src={nuestraHistoria} alt="Nuestra Historia" /></div>
+                                 <div className="card-about-head justify-content-center align-items-center"><img src={nuestraHistoria} alt="Nuestra Historia" /></div>
                                  <div className="card-about-body">
                                      <h3>Nuestra Historia</h3>
                                      <p>Con años de experiencia en las aguas del Golfo de California, nuestros Capitanes, se han dado a la tarea de recorrer el litoral de este acuario natural, para descubrir maravillas que deseaban compartir con los visitantes, surgió así la necesidad de consolidar una empresa turística local que permita dar a conocer nuestras bellezas y sirva de sustento para las familias Sudcalifornianas.</p>
@@ -116,7 +118,7 @@ function About () {
                                      <h3>¿Que es bitcoin?</h3>
                                      <p>Bitcoin es una red consensuada que permite un nuevo sistema de pago y una moneda completamente digital.</p>
                                  </div>
-                                 <div className="pagos-bitcoin-caracteristicas">
+                                 <div className="pagos-bitcoin-caracteristicas justify-content-center align-items-center">
                                      <ul>
                                          <li>Tasas muy bajas </li>
                                          <li>Menores riesgos para los comerciantes</li>
@@ -126,8 +128,25 @@ function About () {
                                  </div>
                              </div>
                          </div>
+                         <div className="cards-about justify-content-center align-items-center">
+                             <div className=".cards-about-contenedor justify-content-center align-items-center">
+                                 <div className="card-about justify-content-between align-items-center">
+                                     <div className="card-about-body">
+                                         <h3>Tu Perfil</h3>
+                                         <p>Haz un seguimiento del uso de tu plan, de los precios para tu viaje y de las herramientas de alojamiento en cualquiera de nuestros hoteles. Realiza un seguimiento de los datos importantes de cada uno de tus paquetes de viaje, como los tiempos de de viaje, el alojamiento en el hotel o el transporte. Con la herramienta del perfil podras gestionar todo esto.</p>
+                                     </div>
+                                     <div className="card-about-head justify-content-end align-items-center"><img src={perfilUsuario} alt="Quienes Somos" /></div>
+                                 </div>
+                                 <div className="card-about justify-content-between align-items-center">
+                                     <div className="card-about-body">
+                                         <h3>Soporte</h3>
+                                         <p>Obtendrás toda la ayuda y el soporte que necesites del mejor personal de soporte. Nuestro personal de soporte está formado por expertos en viajes que pueden ayudarte independientemente de tu paquete de viaje. La prueba está en nuestras reseñas y calificaciones. Nos encanta ayudar a nuestros clientes a tener éxito y saber que aprecian nuestro soporte. Ofrecemos soporte en inglés, español, francés, italiano y portugués.</p>
+                                     </div>
+                                     <div className="card-about-head justify-content-end align-items-center"><img src={soporte} alt="Nuestra Historia" /></div>
+                                 </div>
+                             </div>
+                         </div>
                      </div>
-
                  </div>
              </div>
         </div>

@@ -43,6 +43,7 @@ function Lugares() {
                  </div>
              </div>
          </div>
+         <a href="" className="ver-promociones">Más Promociones</a>
      </section>
         </div>
     )

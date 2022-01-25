@@ -21,7 +21,8 @@
 .card-about-head{
     display: flex;
     width: 40%;
-    padding: 1em;
+    padding: 1em 0;
+    transition: .5s;
 }
 .card-about-body h3{
     font-weight: 800;
@@ -37,6 +38,10 @@
 .card-about-head img{
     width: 300px;
     height: 300px;
+}
+.card-about-head:hover{
+    transform: scale(1.05,1.05);
+    transition: .5s;
 }
 .listado-caracteristcas{
     display:flex;
@@ -100,6 +105,7 @@
 .pagos-bitcoin-caracteristicas ul{
     list-style: none;
     display: inline-block;
+    padding: 0;
     align-items: center;
     text-align: center;
 }
