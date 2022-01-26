@@ -68,6 +68,15 @@
     width: 40px;
     height: 40px;
 }
+.caracteristica.lugar-turistico img{
+    width: 60px;
+    height: 60px;
+    transition: .5s;
+}
+.caracteristica.lugar-turistico img:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
 .caracteristica-body{
     display: flex;
     flex-direction: column;
@@ -82,7 +91,8 @@
 }
 .pagos-bitcoin{
     display: flex;
-    color: rgb(4, 74, 82);
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 74, 82);
     font-family: 'Montserrat', sans-serif;
     border: 1px solid rgb(201, 198, 198);
     border-radius: 40px;

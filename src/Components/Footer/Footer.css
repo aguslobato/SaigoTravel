@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
 /*      
       font-family: 'Montserrat', sans-serif;
       font-family: 'Prata', serif;
+      font-family: 'EB Garamond', serif;
 */
 
   footer{
@@ -143,8 +145,10 @@
     color: rgb(125, 125, 125);
   }
   .bottom center a{
+    font-weight: 600;
     color: rgb(50, 116, 116);
     text-decoration: none;
+    font-family: 'EB Garamond', serif;
   }
   .bottom center a:hover{
     text-decoration: underline;

@@ -10,7 +10,7 @@ header{
     z-index: 10;
 }
 header.abajo{
-    background:linear-gradient(180deg, rgba(3, 29, 31, 0.934), rgba(40, 69, 72, 0.9));
+    background:linear-gradient(180deg, rgb(4, 46, 49), rgb(40, 69, 72));
     color: black !important;
     padding: 45px;
     transition: 0.7s;
@@ -44,7 +44,7 @@ header.abajo .navbar .container-xxl{
     font-size: 18px;
 }
 .offcanvas{
-    background:linear-gradient(180deg, rgba(6, 46, 50, 0.838), rgba(40, 69, 72, 0.804));
+    background:linear-gradient(180deg, rgb(6, 46, 50), rgb(40, 69, 72));
     border: #fff;
 }
 .offcanvas-title{

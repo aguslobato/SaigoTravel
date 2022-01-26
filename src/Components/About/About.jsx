@@ -15,6 +15,15 @@ import desayuno from "../../Images/iconos/taza-de-cafe.png"
 import jabon from "../../Images/iconos/jabon.png"
 import wifi from "../../Images/iconos/wifi.png"
 import bitcoin from "../../Images/iconos/bitcoin.png"
+import dubai from "../../Images/paisajes/dubai.png"
+import catedralBarcelona from "../../Images/paisajes/catedral-barcelona.png"
+import islaPascua from "../../Images/paisajes/isla-pascua.png"
+import italia from "../../Images/paisajes/italia.png"
+import japon from "../../Images/paisajes/japon.png"
+import londres from "../../Images/paisajes/londres.png"
+import nuevaYork from "../../Images/paisajes/nueva-york.png"
+import piramideParis from "../../Images/paisajes/piramide-paris.png"
+import roma from "../../Images/paisajes/roma.png"
 function About () {
     return(
         <div className="About justify-content-center align-items-center">
@@ -128,6 +137,66 @@ function About () {
                                  </div>
                              </div>
                          </div>
+                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                             <div className="caracteristica lugar-turistico justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={dubai} alt="piscina" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Burj Al Arab (Dubai)</h3>
+                                 </div>
+                               </div>
+                             <div className="caracteristica lugar-turistico justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={catedralBarcelona} alt="wifi privado" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Templo Expiatorio de la Sagrada Familia (España) </h3>
+                                 </div>
+                             </div>
+                             <div className="caracteristica lugar-turistico justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={islaPascua} alt="servicio de comida" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Isla de Pascua (Chile)</h3>
+                                 </div>
+                             </div>
+                         </div>   
+                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                             <div className="caracteristica lugar-turistico justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={italia} alt="piscina" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Torre de Pisa (Italia)</h3>
+                                 </div>
+                               </div>
+                             <div className="caracteristica lugar-turistico justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={japon} alt="wifi privado" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Puerta Torii (Japon)</h3>
+                                 </div>
+                             </div>
+                             <div className="caracteristica lugar-turistico justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={londres} alt="servicio de comida" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Big Ben (Reino Unido)</h3>
+                                 </div>
+                             </div>
+                         </div>   
+                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                             <div className="caracteristica lugar-turistico justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={piramideParis} alt="piscina" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Pirámide del Museo del Louvre (Francia)</h3>
+                                 </div>
+                               </div>
+                             <div className="caracteristica lugar-turistico justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={nuevaYork} alt="wifi privado" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Estatua de la Libertad (Estados Unidos)</h3>
+                                 </div>
+                             </div>
+                             <div className="caracteristica lugar-turistico  justify-content-center align-items-center">
+                                 <div className="caracteristica-head"><img src={roma} alt="servicio de comida" /></div>
+                                 <div className="caracteristica-body">
+                                     <h3>Coliseo Romano (Italia)</h3>
+                                 </div>
+                             </div>
+                         </div>   
                          <div className="cards-about justify-content-center align-items-center">
                              <div className=".cards-about-contenedor justify-content-center align-items-center">
                                  <div className="card-about justify-content-between align-items-center">
