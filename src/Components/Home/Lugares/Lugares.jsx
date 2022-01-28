@@ -4,9 +4,7 @@ import MorePlaces from "./MorePlaces/MorePlaces"
 function Lugares() {
     return(
         <div className="Lugares justify-content-center align-items-center">
-             <MorePlaces/>
              <section class="proyectos-ejemplos" id="proyectos">
-                 <h1>Promociones</h1>
                  <div class="proyectos-ejemplos-contenedor">
                      <div class="card-proyecto" id="argentina">
                          <div class="card-proyecto-contenedor">
@@ -41,6 +39,7 @@ function Lugares() {
                  </div>
                  <a href="" className="ver-promociones">Más Promociones</a>
              </section>
+             <MorePlaces/>
         </div>
     )
 }
