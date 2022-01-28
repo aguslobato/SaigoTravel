@@ -8,6 +8,7 @@ import Carrito from "../../Images/iconos/carrito-de-compras.png"
 import Promociones from "../../Images/iconos/promociones.png"
 import NosotrosIcono from "../../Images/iconos/nosotros.png"
 import MenuNav from "../../Images/iconos/menu-nav.png"
+import PerfilUsuario from "../../Images/personajes/imagen-perfil-usuario.jpg"
 
 function NavBar () {
     return(
@@ -36,6 +37,10 @@ function NavBar () {
                                      <input class="form-control me-2" type="search" placeholder="Buscar Lugar" aria-label="Search"/>
                                      <button class="btn btn-outline-light" type="submit">Buscar</button>
                                  </form>
+                             </div>
+                             <div className="offcanvas-footer">
+                                 <img src={PerfilUsuario} alt="{nombre.perfil}"/>
+                                 <h3>Agustin Lobato</h3>
                              </div>
                          </div>
                      </div>

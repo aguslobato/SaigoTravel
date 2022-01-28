@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
 .presentacion-home{
     background-image: url(../../../Images/paisajes/playa.jpg);
     background-position: bottom;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 60vh;
     width: 100%;
     padding: 0;
 }
 .presentacion-home-contenedor{
     display: flex;
-    min-height: 70vh;
+    min-height: 60vh;
     flex-direction: column;
-    color: rgb(4, 74, 82);
 }
 .presentacion-home-contenedor h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     letter-spacing: 10px;
+    color: rgb(8, 57, 62);
 }
 .presentacion-home-contenedor h2{
     font-family: 'Bitter', serif;
     font-weight: 400;
     font-size: 70px;
     letter-spacing: 5px;
+    color: rgb(8, 52, 57);
 }
 .presentacion-home-contenedor a{
     padding: 10px 20px;
@@ -41,26 +43,61 @@
     background-color: rgb(3, 120, 133);
     transition: .6s;
 }
-.seleccion-paises a{
-    padding: 0;
+.gestion-viaje{
+    padding: 2em 0;
 }
-.seleccion-paises{
-    text-align: center;
+.gestion-viaje-contenedor{
+    padding: 1em 0;
+    border-radius: 40px;
+    background-color: #fff;
+}
+.table>:not(caption)>*>* {
+    box-shadow: none;
+}
+tbody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(184, 184, 184) !important;
     padding: 1em 0;
 }
-.seleccion-paises ul{
-    border-bottom: 1px solid rgba(218, 218, 218, 0.982);
+table{
+    text-align: center;
 }
-.seleccion-paises ul li a{
-    font-size: 20px;
+table tbody a{
+    padding: 10px 20px;
     text-decoration: none;
-    color: rgb(4, 74, 82);
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
-    font-family: 'Bitter', serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(4, 74, 82);
+    border: rgb(4, 74, 82);
+    border-radius: 10px;
+    transition: .6s;
+    font-size: 18px;
 }
-.seleccion-paises ul li a:hover{
-    color: rgb(13, 67, 67);
+
+table tbody a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 120, 133);
+    transition: .6s;
+}
+thead{
+    display: flex;
+}
+thead li{
+    margin: 0 !important;
+}
+thead a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(121, 121, 121) !important;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0);
+}
+thead a:hover{
+    border-bottom: 1px solid rgb(4, 74, 82);
 }
 @media (max-width: 500px),(max-width: 900px){
     .presentacion-home-contenedor{

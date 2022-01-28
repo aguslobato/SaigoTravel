@@ -15,19 +15,32 @@ import { Link } from "react-router-dom"
                      <h2>Argentina</h2>
                      <a href="" className="btn btn-outline-success">Ver lugares</a>
                  </div>
-                 <div className="seleccion-paises">
-                     <div className="seleccion-paises-contenedor container-xxl">
-                         <ul className="nav justify-content-evenly align-items-center">
-                             <li className="nav-item"><Link className="nav-link" to="/">Europa</Link></li>
-                             <li className="nav-item"><Link className="nav-link" to="/">Oceania</Link></li>
-                             <li className="nav-item"><Link className="nav-link" to="/">Promociones</Link></li>
-                             <li className="nav-item"><Link className="nav-link" to="/">Asia</Link></li>
-                             <li className="nav-item"><Link className="nav-link" to="/">America</Link></li>
-                         </ul>
+                 <div className="gestion-viaje justify-content-center align-items-center d-flex">
+                     <div className="gestion-viaje-contenedor container-xxl">
+                         <table class="table justify-content-center align-items-center d-flex table-hover">
+                             <thead className="justify-content-center align-items-center">
+                             <ul class="nav justify-content-center">
+                                 <li class="nav-item"><Link class="nav-link active" aria-current="page" to="/">Stays</Link></li> 
+                                 <li class="nav-item"><Link class="nav-link" to="/">Flights</Link></li>
+                                 <li class="nav-item"><Link class="nav-link" to="/">Cars</Link></li>
+                                 <li class="nav-item"><Link class="nav-link" to="/">Packages</Link></li>
+                                 <li class="nav-item"><Link class="nav-link" to="/">Things to do</Link></li>
+                                 <li class="nav-item"><Link class="nav-link" to="/">Cruises</Link></li>
+                             </ul>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <th scope="row"><input class="form-control me-4" type="search" placeholder="Buscar Lugar" aria-label="Search"/></th>
+                                     <td colspan="2" class="table-active"><input class="form-control me-4" type="search" placeholder="Check-in" aria-label="Search"/></td>
+                                     <td><input class="form-control me-4" type="search" placeholder="Check-out" aria-label="Search"/></td>
+                                 </tr>
+                                 <Link to="/">Buscar</Link>
+                             </tbody>
+                         </table>
                      </div>
-                 </div>
+                 </div> 
              </div>
          </div>
     )
 }
-export default Presentacion;
+export default Presentacion;                
