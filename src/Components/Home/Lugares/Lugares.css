@@ -1,106 +1,80 @@
-.proyectos-ejemplos{
+.cards-lugares{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2em 0;
-    flex-wrap: wrap;
-    color: rgb(4, 74, 82);
-    font-family: 'Montserrat', sans-serif;
 }
-.proyectos-ejemplos-contenedor{
-    padding: 2em 0;
-    justify-content: space-around;
+.cards-lugares-contenedor{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.proyectos-ejemplos .ver-promociones{
+.card.mb-3{
+    margin: 10px;
+    max-width: 450px;
+}
+.img-fluid{
+    min-height: 150px;
+    min-width: 200px;
+}
+.cards-lugares .card-body {
+    color:#656565;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cards-lugares .card-body h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-body a{
     color: rgb(4, 74, 82);
-    padding: 10px 30px;
-    border:1px solid rgb(4, 74, 82);
-    border-radius: 40px;
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
-    transition: .4s;
+    border-radius: 40px;
+    border: 1px solid rgb(4, 74, 82);
+    background-color: #fff;
+    padding: 8px 14px;
 }
-.ver-promociones:hover{
-    background-color: rgb(4, 74, 82);
-    color: white;
-    transition: .4s;
+.card-body a:hover{
+    background-color: rgb(26, 64, 68);
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
 }
-.card-proyecto{
+.cards-lugares .card-footer{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    margin: 1em;
-    width: 450px;
-    height: 250px;
-    color: #fff;
-    transition: .8s;
-    background-size: cover;
+    background-color: rgb(255, 255, 255);
 }
-.card-proyecto:hover{
-    transition: .8s;
-    transform: translateY(-10px);
-    cursor: default;
+.cards-lugares .card-body p{
+    margin: 0;
+    text-align: center;
 }
-.card-proyecto-contenedor{
-    padding: 2em;
-    border-radius: 10px;
-    display: flex;
-    opacity: 1;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    transition: .8s;
-    background-color: rgba(0, 0, 0, 0.434);
-    font-family: 'Montserrat', sans-serif;
+.cards-lugares .card-body p code{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
-#argentina{
-    background-image: url(../../../Images/paisajes/argentina.jpg);
-}
-#chile{
-    background-image: url(../../../Images/paisajes/chile.jpeg);
-}
-#francia{
-    background-image: url(../../../Images/paisajes/francia.jpg);
-}
-.card-proyecto-footer span{
-    font-size: 20px;
-    margin: 10px;
-    color: #fff;
-}
-.card-proyecto-footer a:hover{
-    background-color: rgba(255, 255, 255, 0.253);
-    transition: .8s;
-}
-.card-proyecto-contenedor a{
-    margin: 10px 0;
-    padding: 10px 20px;
-    border: 1px solid white;
-    border-radius: 40px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
+.cards-lugares .card-footer a{
     text-decoration: none;
-    transition: .5s;
+    margin:  0 15px;
+    font-size: 22px;
+    color: rgb(4, 74, 82);
 }
-.card-proyecto-contenedor a:hover{
-    background-color: rgb(28, 86, 87);
-    transition: .5s;
+.cards-lugares .card-footer a:hover{
+    color: rgb(5, 57, 63);
 }
-@media (max-width: 400px),(max-width: 900px){
-    .proyectos-ejemplos-contenedor{
-        padding: 2em 0;
-        flex-direction: column;
-    }
-    .card-proyecto{
-        display: flex;
-        flex-direction: row;
-        margin: 1em 0;
-        width: 350px;
-        height: 200px;
-    }
+.carousel-inner .carousel-item{
+    display: flex;
+    flex-direction: row;
+}
+.carousel-control-next-icon {
+    background-image: url(../../../Images/iconos/angle-right.png);
+}
+.carousel-control-prev-icon{
+    background-image: url(../../../Images/iconos/angle-left.png);
 }

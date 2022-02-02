@@ -1,78 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prata&display=swap');
-.Hotel{
+.cards-hoteles{
+    display: flex;
+}
+.cards-hoteles-contenedor{
     display: flex;
     flex-wrap: wrap;
 }
-.hotel-presentacion{
-    display: flex;
-    flex-direction: column;
-    margin: 1em 0;
+.cards-hoteles p code{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
-.hotel-presentacion-contenedor{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgb(203, 203, 203);
-    border-radius: 40px;
-    width: 400px;
-    color: rgb(4, 74, 82);
-}
-.hotel-presentacion-contenedor .hotel-head{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    border-radius: 10px;
-}
-.hotel-presentacion-contenedor img{
-    width: 100%;
-    height: 250px;
-}
-.hotel-body{
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-}
-.hotel-presentacion-contenedor .hotel-body h3{
-    font-family: 'Prata', serif;
-    font-size: 20px;
-    text-align: center;
-}
-.hotel-presentacion-contenedor .hotel-body p{
-    display: flex;
+.cards-hoteles .card-img-top{
     height: 200px;
-    font-family: 'Montserrat', sans-serif;
-    padding: 1em;
-    color: gray;
 }
-.hotel-body .hotel-footer span{
-    margin: 5px;
-}
-.hotel-body .hotel-footer a{
-    background-color: rgb(50, 116, 116);
-    color: rgb(255, 255, 255);
+.cards-hoteles a{
     text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 40px;
-    border: 1px solid rgb(4, 74, 82);
-}
-.hotel-footer{
-    display: flex;
-    flex-direction: column;
-}
-.hotel-carrito-contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.hotel-carrito-contenedor ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    padding: 0.5em;
+    margin: 15px;
     font-size: 25px;
+    color: #656565;
 }
-.hotel-carrito-contenedor ul li{
-    margin: 0 5px;
+.cards-hoteles a:hover{
+    color: green;
+}
+.cards-hoteles .card{
+    width: 18rem;
+    margin: 1em 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cards-hoteles .card-body a{
+    font-size: 15px;
+    border: none;
+    padding: 0;
+    margin: 10px;
+    border-radius: 0;
+}
+.cards-hoteles .card-body a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid  rgb(4, 74, 82);
+    background-color:white;
+}
+.precio{
+    color: green;
+}
+.puntaje{
+    color: rgb(4, 74, 82);
 }

@@ -44,7 +44,7 @@
     transition: .6s;
 }
 .gestion-viaje{
-    padding: 2em 0;
+    padding: 2em 1em;
 }
 .gestion-viaje-contenedor{
     padding: 1em 0;
@@ -76,7 +76,6 @@ table tbody a{
     transition: .6s;
     font-size: 18px;
 }
-
 table tbody a:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(3, 120, 133);

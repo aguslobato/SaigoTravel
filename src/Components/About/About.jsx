@@ -48,7 +48,7 @@ function About () {
                          </div>
                      </div>
                      <div className="listado-caracteristicas justify-content-center align-items-center">
-                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                         <div className="listado-caracteristcas-contenedor justify-content-center align-items-start">
                              <div className="caracteristica justify-content-center align-items-center">
                                  <div className="caracteristica-head"><img src={aireAcondicionado} alt="aire acondicionado"/></div>
                                  <div className="caracteristica-body">
@@ -71,7 +71,7 @@ function About () {
                                  </div>
                              </div>
                          </div> 
-                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                         <div className="listado-caracteristcas-contenedor justify-content-center align-items-start">
                              <div className="caracteristica justify-content-center align-items-center">
                                  <div className="caracteristica-head"><img src={piscina} alt="piscina" /></div>
                                  <div className="caracteristica-body">
@@ -94,7 +94,7 @@ function About () {
                                  </div>
                              </div>
                          </div>   
-                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                         <div className="listado-caracteristcas-contenedor justify-content-center align-items-start">
                              <div className="caracteristica justify-content-center align-items-center">
                                  <div className="caracteristica-head"><img src={desayuno} alt="desayuno gratuito" /></div>
                                  <div className="caracteristica-body">
@@ -137,7 +137,7 @@ function About () {
                                  </div>
                              </div>
                          </div>
-                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                         <div className="listado-caracteristcas-contenedor justify-content-center align-items-start">
                              <div className="caracteristica lugar-turistico justify-content-center align-items-center">
                                  <div className="caracteristica-head"><img src={dubai} alt="piscina" /></div>
                                  <div className="caracteristica-body">
@@ -157,7 +157,7 @@ function About () {
                                  </div>
                              </div>
                          </div>   
-                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                         <div className="listado-caracteristcas-contenedor justify-content-center align-items-start">
                              <div className="caracteristica lugar-turistico justify-content-center align-items-center">
                                  <div className="caracteristica-head"><img src={italia} alt="piscina" /></div>
                                  <div className="caracteristica-body">
@@ -177,7 +177,7 @@ function About () {
                                  </div>
                              </div>
                          </div>   
-                         <div className="listado-caracteristcas-contenedor justify-content-between align-items-start">
+                         <div className="listado-caracteristcas-contenedor justify-content-center align-items-start">
                              <div className="caracteristica lugar-turistico justify-content-center align-items-center">
                                  <div className="caracteristica-head"><img src={piramideParis} alt="piscina" /></div>
                                  <div className="caracteristica-body">
