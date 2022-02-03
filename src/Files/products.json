@@ -1,1 +1,5 @@
-[{"title":"Viaje a Uruguay","price":2000,"thumbnail":"src/Images/paisajes/uruguay.jpg","id":1},{"title":"Viaje a Uruguay","price":2000,"thumbnail":"src/Images/paisajes/uruguay.jpg","id":2},{"title":"Viaje a Uruguay","price":2000,"thumbnail":"src/Images/paisajes/uruguay.jpg","id":3}]
+[
+     {"title": "Viaje a Uruguay", "price": 40000, "image":"src/Images/paisajes/uruguay.jpg", "id":1},
+     {"title": "Viaje a Chile", "price": 46000, "image": "src/Images/paisajes/chile.jpeg", "id":2},
+     {"title": "Viaje a Argentina", "price": 44000, "image":"src/Images/paisajes/argentina.jpg", "id":3}
+]
