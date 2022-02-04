@@ -20,7 +20,12 @@
              console.log(error)
         }
     }
-    res.send([{"title": "Viaje a Uruguay", "price": 40000, "image":"src/Images/paisajes/uruguay.jpg", "id":1}, {"title": "Viaje a Chile", "price": 46000, "image": "src/Images/paisajes/chile.jpeg", "id":2}, {"title": "Viaje a Argentina", "price": 44000, "image":"src/Images/paisajes/argentina.jpg", "id":3}])//MUESTRO COMO RESPUESTA EL ARRAY CON SUS OBJETOS PARA QUE EL CLIENTE LO VEA
+    let listProducts = [
+        {"title": "Viaje a Uruguay", "price": 40000, "image":"src/Images/paisajes/uruguay.jpg", "id":1}, 
+        {"title": "Viaje a Chile", "price": 46000, "image": "src/Images/paisajes/chile.jpeg", "id":2}, 
+        {"title": "Viaje a Argentina", "price": 44000, "image":"src/Images/paisajes/argentina.jpg", "id":3}
+    ]
+    res.send(listProducts)//MUESTRO COMO RESPUESTA EL ARRAY CON SUS OBJETOS PARA QUE EL CLIENTE LO VEA
 })
 
  //TRAER UN PRODUCTO RANDOM DEL ARRAY
@@ -37,6 +42,11 @@
     } catch (e) {
          console.log(`Error: ${e.message}`);
     }
-     res.send(getProductRandom([{"title": "Viaje a Uruguay", "price": 40000, "image":"src/Images/paisajes/uruguay.jpg", "id":1}, {"title": "Viaje a Chile", "price": 46000, "image": "src/Images/paisajes/chile.jpeg", "id":2}, {"title": "Viaje a Argentina", "price": 44000, "image":"src/Images/paisajes/argentina.jpg", "id":3}]))
+    let listProducts = [
+        {"title": "Viaje a Uruguay", "price": 40000, "image":"src/Images/paisajes/uruguay.jpg", "id":1}, 
+        {"title": "Viaje a Chile", "price": 46000, "image": "src/Images/paisajes/chile.jpeg", "id":2}, 
+        {"title": "Viaje a Argentina", "price": 44000, "image":"src/Images/paisajes/argentina.jpg", "id":3}
+    ]
+     res.send(getProductRandom(listProducts))
      //PASO LOS DATOS DEL ARRAY PARA QUE SAQUE DE AHI UN OBJETO RANDOM Y ME LO MUESTRE COMO RESPUESTA PARA EL CLIENTE
 })
