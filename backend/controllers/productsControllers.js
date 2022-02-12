@@ -57,7 +57,7 @@
                 }
                  else{res.json({success:false, product: "campos indefinidos"})}
             }
-             else{res.json({success:false, product: "no existe tu puto producto, vuelvas prontos"})}
+             else{res.json({success:false, product: "no existe el producto"})}
         }
          catch(error){console.log(error)}
          
@@ -66,10 +66,16 @@
      deleteProductById: async(req,res) => {
 
          try{
-             const products = [...listProducts]
-             let filter = products.filter(product => product.id !== req.params.id)
-             await fs.promises.writeFile('../backend/files/products.json', JSON.stringify(filter))
-             res.json({success:true, products:filter})
+             let products = [...listProducts]
+             let indice = products.findIndex(product => product.id === +req.params.id)
+             if (indice >= 0){
+                 products.splice(indice, 1)
+                 await fs.promises.writeFile('../backend/files/products.json', JSON.stringify(products))
+                 res.json({success:true, products})
+            }else{
+                res.json({success:false, response: "no existe el producto"})
+            }
+             
         }
          catch(error){console.log(error)}
 
